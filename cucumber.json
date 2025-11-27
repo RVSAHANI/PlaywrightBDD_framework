@@ -1,0 +1,20 @@
+{"default": {
+  "timeout": 60000,
+  "formatOptions": {
+    "snippetInterface": "async-await"
+  },
+  "paths": [
+    "src/test/features/"
+  ],
+  "publishQuiet": true,
+  "dryRun": false,
+  "require": [
+    "src/test/steps/*.ts",
+    "src/hooks/hooks.ts"
+  ],
+  
+  "format": [
+    "json:cucumber-report.json",
+    "html:cucumber-report.html"
+  ]
+}}

@@ -1,0 +1,66 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "playwright-bdd-with-cucumber;open-playwright-website",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Open Playwright website",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 530199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the Playwright homepage",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2542100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should see the Playwright title",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5292500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 130699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "playwright-bdd-with-cucumber",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Playwright BDD with Cucumber",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  }
+]
